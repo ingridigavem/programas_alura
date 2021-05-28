@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: rgb(70, 130, 180);
+    font-family: 'Bebas Neue', cursive;
+}
+
+#principal{
+    background-color:rgb(176,196,222);
+    width: 50%;
+    margin: 50px auto 0 auto;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 20px auto;
+    vertical-align: middle;
+}
+
+#inputs{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+    row-gap: 3px;
+}
+
+.labels-campos{
+    font-size: 2rem;
+    
+}
+
+.campos{
+    margin: 5px;
+    padding: 8px;
+    font-size: 1rem;
+    vertical-align: middle;
+}
+
+#texto{
+    font-size: 1.5rem;
+    margin: 20px auto 0 auto;
+}
+
+#inputs-radio{
+    font-size: 1.5rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#gasolina, #alcool{
+    margin-left: 10px;
+}
+
+#submit{
+    font-size: 1rem;
+    vertical-align: middle;
+    padding: 5px;
+    margin-left: 10px ;
+}
+
+.resultado-vazio{
+    width: 100%;
+}
+
+.resultado-obtido{
+    background:rgb(118, 186, 212);
+    width: 70%;
+    height: auto;
+    margin: 10px auto 0 auto;
+    padding: 8px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+}

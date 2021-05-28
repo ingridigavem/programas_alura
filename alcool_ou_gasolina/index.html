@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora álcool ou gasolina?</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <section id="principal">
+        <h1>Álcool ou gasolina?</h1>
+        
+        <section id="inputs">
+            <label class="labels-campos">Distância percorrida:<input type="text" class="campos" id="distancia" placeholder="Distância em Km"></label>
+            <label class="labels-campos">Quantidade de litros:<input type="text" class="campos" id="litros" placeholder="Litros"></label>
+        </section>
+        <p id="texto">Marque qual tipo de combustível deseja calcular:</p>
+        <section id="inputs-radio">
+            <label class="labels-radio">Gasolina:<input type="radio" name="selecao" id="gasolina" checked></label>
+            <label class="labels-radio">Álcool:<input type="radio" name="selecao" id="alcool"></label>
+            <input type="submit" id="submit">
+        </section>
+        <p id="resultado" class="resultado-vazio"></p>
+    </section>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
